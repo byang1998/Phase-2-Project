@@ -1,0 +1,31 @@
+{
+"players": [
+    { 
+     "id": 1,
+     "name": "Stephen Curry",
+     "position": "Guard",
+    "height": "6'3",
+    "weight": 185,
+    "image": "https://s.hdnux.com/photos/01/17/15/02/20762796/14/rawImage.jpg",
+    "highlights": "https://www.youtube.com/watch?v=b117a8_jALE"
+    },
+    {
+    "id": 2,
+    "name": "Lebron James",
+     "position": "Wing",
+    "height": "6’9",
+    "weight": 250,
+    "image": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_08/3453187/210227-lebron-james-al-0945.jpg",
+    "highlights": "https://www.youtube.com/watch?v=b117a8_jALE"
+    },
+    {
+    "id": 3,
+    "name": "Nikola Jokic",
+     "position": "Big",
+    "height": "6’11",
+    "weight": 284,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg",
+    "highlights": "https://www.youtube.com/watch?v=tVPVu7G3alw"
+    }
+  ]
+}
