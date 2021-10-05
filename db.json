@@ -26,6 +26,50 @@
     "weight": 284,
     "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg",
     "highlights": "https://www.youtube.com/watch?v=tVPVu7G3alw"
-    }
+    },
+    {
+    "id": 4,
+    "name": "Zion Williamson",
+    "position": "Big",
+    "height": "6’6",
+    "weight": 285,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Zion_Williamson_2020.jpg/220px-Zion_Williamson_2020.jpg",
+    "highlights": "https://www.youtube.com/watch?v=j3RPnA4pvKw"
+    },
+    {
+    "id": 5,
+    "name": "Zion Williamson",
+    "position": "Big",
+    "height": "6’6",
+    "weight": 285,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Zion_Williamson_2020.jpg/220px-Zion_Williamson_2020.jpg",
+    "highlights": "https://www.youtube.com/watch?v=j3RPnA4pvKw"
+    },
+    {
+    "id": 6,
+    "name": "Luka Doncic",
+    "position": "Guard",
+    "height": "6’7",
+    "weight": 230,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Luka_Don%C4%8Di%C4%87_2021.jpg/220px-Luka_Don%C4%8Di%C4%87_2021.jpg",
+    "highlights": "https://www.youtube.com/watch?v=aJBl7RMDlVo"    
+    },
+    "id": 7,
+    "name": "Kristaps Porzingis",
+    "position": "Big",
+    "height": "7'3",
+    "weight": 240,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kristaps_Porzingis_floater_%28cropped%29.jpg/220px-Kristaps_Porzingis_floater_%28cropped%29.jpg",
+    "highlights": "https://www.youtube.com/watch?v=v-OlHvyi6k0"  
+    },
+    "id": 7,
+    "name": "Kristaps Porzingis",
+    "position": "Big",
+    "height": "7'3",
+    "weight": 240,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kristaps_Porzingis_floater_%28cropped%29.jpg/220px-Kristaps_Porzingis_floater_%28cropped%29.jpg",
+    "highlights": "https://www.youtube.com/watch?v=v-OlHvyi6k0"   
+    }  
   ]
+  
 }
