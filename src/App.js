@@ -17,13 +17,13 @@ function App() {
     setPlayers((prevPlayer) => [newPlayerObj,...prevPlayer])
   }
 
-  const filteredPlayers = players.filter((playerObj) => playerObj.name.includes(setSearchPlayer))
+  const filteredPlayers = players.filter((playerObj) => playerObj.name.includes(searchPlayer))
 
   return (
     <div className="app">
       <Header />
       <NavBar addNewPlayer={addNewPlayer} setSearchPlayer={setSearchPlayer} />
-      <PlayerContainer players={players} />
+      <PlayerContainer players={filteredPlayers} filteredPlayers={filteredPlayers} />
       
     </div>
   );

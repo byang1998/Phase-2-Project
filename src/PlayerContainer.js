@@ -1,5 +1,6 @@
 import React from 'react'
 import PlayerCard from './PlayerCard'
+import SearchBar from './SearchBar';
 
 export default function PlayerContainer({players})
  {
@@ -10,6 +11,7 @@ export default function PlayerContainer({players})
     return (
         <div>
             {playerCards}
+           
         </div>
     )
 }
