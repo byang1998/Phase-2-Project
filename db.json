@@ -54,14 +54,7 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Luka_Don%C4%8Di%C4%87_2021.jpg/220px-Luka_Don%C4%8Di%C4%87_2021.jpg",
     "highlights": "https://www.youtube.com/watch?v=aJBl7RMDlVo"    
     },
-    "id": 7,
-    "name": "Kristaps Porzingis",
-    "position": "Big",
-    "height": "7'3",
-    "weight": 240,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kristaps_Porzingis_floater_%28cropped%29.jpg/220px-Kristaps_Porzingis_floater_%28cropped%29.jpg",
-    "highlights": "https://www.youtube.com/watch?v=v-OlHvyi6k0"  
-    },
+    {
     "id": 7,
     "name": "Kristaps Porzingis",
     "position": "Big",
@@ -69,7 +62,25 @@
     "weight": 240,
     "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kristaps_Porzingis_floater_%28cropped%29.jpg/220px-Kristaps_Porzingis_floater_%28cropped%29.jpg",
     "highlights": "https://www.youtube.com/watch?v=v-OlHvyi6k0"   
-    }  
+    },
+    {
+    "id": 8,
+    "name": "Kemba Walker",
+    "position": "Guard",
+    "height": "6'0",
+    "weight": 184,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Kemba_Walker_2019.jpg/220px-Kemba_Walker_2019.jpg",
+    "highlights": "https://www.youtube.com/watch?v=uuxyO-N1NFQ"   
+    },
+    { 
+    "id": 9,
+    "name": "Giannis Antetokounmpo",
+    "position": "Wing",
+    "height": "6'11",
+    "weight": 242,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg/250px-Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg",
+    "highlights": "https://www.youtube.com/watch?v=OSQ-lRYUkfs"  
+}
+   
   ]
-  
 }

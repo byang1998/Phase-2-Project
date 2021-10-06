@@ -1,20 +1,15 @@
-import { useState } from 'react'
+import React from 'react'
 import PlayerCard from './PlayerCard'
-import NavBar from './NavBar'
-import NewPlayerForm from './NewPlayerForm'
 
-
-export default function PlayerContainer() {
-
-    const [players, setPlayers] = useState([])
-
-    
+export default function PlayerContainer({players})
+ {
+     const playerCards = players.map((playerObj) => {
+         return <PlayerCard key={playerObj.id} playerData={playerObj} />;
+     });
 
     return (
         <div>
-            {/* <NavBar />
-            <NewPlayerForm /> */}
-            <PlayerCard />
+            {playerCards}
         </div>
     )
 }
