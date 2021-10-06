@@ -1,86 +1,86 @@
 {
-"players": [
-    { 
-     "id": 1,
-     "name": "Stephen Curry",
-     "position": "Guard",
-    "height": "6'3",
-    "weight": 185,
-    "image": "https://s.hdnux.com/photos/01/17/15/02/20762796/14/rawImage.jpg",
-    "highlights": "https://www.youtube.com/watch?v=b117a8_jALE"
+  "players": [
+    {
+      "id": 1,
+      "name": "Stephen Curry",
+      "position": "Guard",
+      "height": "6'3",
+      "weight": 185,
+      "image": "https://s.hdnux.com/photos/01/17/15/02/20762796/14/rawImage.jpg",
+      "highlights": "https://www.youtube.com/watch?v=b117a8_jALE"
     },
     {
-    "id": 2,
-    "name": "Lebron James",
-     "position": "Wing",
-    "height": "6’9",
-    "weight": 250,
-    "image": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_08/3453187/210227-lebron-james-al-0945.jpg",
-    "highlights": "https://www.youtube.com/watch?v=b117a8_jALE"
+      "id": 2,
+      "name": "Lebron James",
+      "position": "Wing",
+      "height": "6’9",
+      "weight": 250,
+      "image": "https://media-cldnry.s-nbcnews.com/image/upload/newscms/2021_08/3453187/210227-lebron-james-al-0945.jpg",
+      "highlights": "https://www.youtube.com/watch?v=b117a8_jALE"
     },
     {
-    "id": 3,
-    "name": "Nikola Jokic",
-     "position": "Big",
-    "height": "6’11",
-    "weight": 284,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg",
-    "highlights": "https://www.youtube.com/watch?v=tVPVu7G3alw"
+      "id": 3,
+      "name": "Nikola Jokic",
+      "position": "Big",
+      "height": "6’11",
+      "weight": 284,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Nikola_Jokic_free_throw_%28cropped%29.jpg",
+      "highlights": "https://www.youtube.com/watch?v=tVPVu7G3alw"
     },
     {
-        "id": 4,
-        "name": "Devin Booker",
-         "position": "Guard",
-        "height": "6’5",
-        "weight": 205,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Devin_Booker_%2830362063153%29_%28cropped%29.jpg/220px-Devin_Booker_%2830362063153%29_%28cropped%29.jpg",
-        "highlights": "https://www.youtube.com/watch?v=pFZqqeVEZM0"
-        },
-    {
-    "id": 5,
-    "name": "Zion Williamson",
-    "position": "Big",
-    "height": "6’6",
-    "weight": 285,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Zion_Williamson_2020.jpg/220px-Zion_Williamson_2020.jpg",
-    "highlights": "https://www.youtube.com/watch?v=j3RPnA4pvKw"
+      "id": 4,
+      "name": "Devin Booker",
+      "position": "Guard",
+      "height": "6’5",
+      "weight": 205,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Devin_Booker_%2830362063153%29_%28cropped%29.jpg/220px-Devin_Booker_%2830362063153%29_%28cropped%29.jpg",
+      "highlights": "https://www.youtube.com/watch?v=pFZqqeVEZM0"
     },
     {
-    "id": 6,
-    "name": "Luka Doncic",
-    "position": "Guard",
-    "height": "6’7",
-    "weight": 230,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Luka_Don%C4%8Di%C4%87_2021.jpg/220px-Luka_Don%C4%8Di%C4%87_2021.jpg",
-    "highlights": "https://www.youtube.com/watch?v=aJBl7RMDlVo"    
+      "id": 5,
+      "name": "Zion Williamson",
+      "position": "Big",
+      "height": "6’6",
+      "weight": 285,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Zion_Williamson_2020.jpg/220px-Zion_Williamson_2020.jpg",
+      "highlights": "https://www.youtube.com/watch?v=j3RPnA4pvKw"
     },
     {
-    "id": 7,
-    "name": "Kristaps Porzingis",
-    "position": "Big",
-    "height": "7'3",
-    "weight": 240,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kristaps_Porzingis_floater_%28cropped%29.jpg/220px-Kristaps_Porzingis_floater_%28cropped%29.jpg",
-    "highlights": "https://www.youtube.com/watch?v=v-OlHvyi6k0"   
+      "id": 6,
+      "name": "Luka Doncic",
+      "position": "Guard",
+      "height": "6’7",
+      "weight": 230,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Luka_Don%C4%8Di%C4%87_2021.jpg/220px-Luka_Don%C4%8Di%C4%87_2021.jpg",
+      "highlights": "https://www.youtube.com/watch?v=aJBl7RMDlVo"
     },
     {
-    "id": 8,
-    "name": "Kemba Walker",
-    "position": "Guard",
-    "height": "6'0",
-    "weight": 184,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Kemba_Walker_2019.jpg/220px-Kemba_Walker_2019.jpg",
-    "highlights": "https://www.youtube.com/watch?v=uuxyO-N1NFQ"   
+      "id": 7,
+      "name": "Kristaps Porzingis",
+      "position": "Big",
+      "height": "7'3",
+      "weight": 240,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Kristaps_Porzingis_floater_%28cropped%29.jpg/220px-Kristaps_Porzingis_floater_%28cropped%29.jpg",
+      "highlights": "https://www.youtube.com/watch?v=v-OlHvyi6k0"
     },
-    { 
-    "id": 9,
-    "name": "Giannis Antetokounmpo",
-    "position": "Wing",
-    "height": "6'11",
-    "weight": 242,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg/250px-Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg",
-    "highlights": "https://www.youtube.com/watch?v=OSQ-lRYUkfs"  
-}
-   
+    {
+      "id": 8,
+      "name": "Kemba Walker",
+      "position": "Guard",
+      "height": "6'0",
+      "weight": 184,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Kemba_Walker_2019.jpg/220px-Kemba_Walker_2019.jpg",
+      "highlights": "https://www.youtube.com/watch?v=uuxyO-N1NFQ"
+    },
+    {
+      "id": 9,
+      "name": "Giannis Antetokounmpo",
+      "position": "Wing",
+      "height": "6'11",
+      "weight": 242,
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg/250px-Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg",
+      "highlights": "https://www.youtube.com/watch?v=OSQ-lRYUkfs"
+    }
+  
   ]
 }

@@ -4,7 +4,7 @@ import PlayerCard from './PlayerCard'
 export default function PlayerContainer({players})
  {
      const playerCards = players.map((playerObj) => {
-         return <PlayerCard key={playerObj.id} playerData={playerObj} />;
+         return <ul className="cards">{<PlayerCard key={playerObj.id} playerData={playerObj} />}</ul>
      });
 
     return (

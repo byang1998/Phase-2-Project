@@ -5,6 +5,7 @@ import NavBar from "./NavBar";
 
 function App() {
   const [players, setPlayers] = useState([]);
+  const [searchPlayer, setSearchPlayer] = useState("")
 
   useEffect (() => {
     fetch("http://localhost:3001/players")
@@ -16,12 +17,12 @@ function App() {
     setPlayers((prevPlayer) => [newPlayerObj,...prevPlayer])
   }
 
-  
+  const filteredPlayers = players.filter((playerObj) => playerObj.name.includes(setSearchPlayer))
 
   return (
     <div className="app">
       <Header />
-      <NavBar addNewPlayer={addNewPlayer} />
+      <NavBar addNewPlayer={addNewPlayer} setSearchPlayer={setSearchPlayer} />
       <PlayerContainer players={players} />
       
     </div>
