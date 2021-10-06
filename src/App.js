@@ -1,7 +1,6 @@
 import {useEffect, useState} from "react";
 import PlayerContainer from "./PlayerContainer";
 import Header from "./Header";
-import NewPlayerForm from "./NewPlayerForm";
 import NavBar from "./NavBar";
 
 function App() {
@@ -13,12 +12,18 @@ function App() {
     .then((players) => setPlayers(players));
   },[]);
 
-  const [playerForm, setPlayerForm] = useState(true);
+  const addNewPlayer = (newPlayerObj) => {
+    setPlayers((prevPlayer) => [newPlayerObj,...prevPlayer])
+  }
+
+  
 
   return (
     <div className="app">
       <Header />
+      <NavBar addNewPlayer={addNewPlayer} />
       <PlayerContainer players={players} />
+      
     </div>
   );
 }

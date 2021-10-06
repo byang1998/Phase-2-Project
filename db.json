@@ -28,14 +28,14 @@
     "highlights": "https://www.youtube.com/watch?v=tVPVu7G3alw"
     },
     {
-    "id": 4,
-    "name": "Zion Williamson",
-    "position": "Big",
-    "height": "6’6",
-    "weight": 285,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Zion_Williamson_2020.jpg/220px-Zion_Williamson_2020.jpg",
-    "highlights": "https://www.youtube.com/watch?v=j3RPnA4pvKw"
-    },
+        "id": 4,
+        "name": "Devin Booker",
+         "position": "Guard",
+        "height": "6’5",
+        "weight": 205,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Devin_Booker_%2830362063153%29_%28cropped%29.jpg/220px-Devin_Booker_%2830362063153%29_%28cropped%29.jpg",
+        "highlights": "https://www.youtube.com/watch?v=pFZqqeVEZM0"
+        },
     {
     "id": 5,
     "name": "Zion Williamson",
