@@ -5,7 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background: linear-gradient(-45deg,  #ffffff, #fd0202, #ffffff, #0400ff, #ffffff);
 
 }
 
@@ -22,7 +22,7 @@ code {
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
-  transition:0.4s;
+  transition:0.8s;
   width: 300px;
   background: #fff;
   text-align:center;
@@ -60,12 +60,14 @@ header {
 }
 
 header h1 {
-  float: left;
-  font-size: 40px;
+  float: inline-start;
+  font-size: 50px;
   color: white;
 	font-style: italic;
 	font-family: 'Josefin Sans', sans-serif;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .topSection {
@@ -77,4 +79,29 @@ header h1 {
   justify-content: left;
   align-items: left;
   
+}
+header {
+  border-bottom: 1px #ccc solid;
+  background: #eee;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(https://images5.alphacoders.com/467/thumb-1920-467394.jpg) 50%/ cover
+  
+}
+#nbaLogo {
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.0;
+}
+p {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 70px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
 }
