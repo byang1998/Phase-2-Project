@@ -29,7 +29,7 @@ code {
    float: left;
     width:  300px;
     height: 300px;
-    //object-fit: contain;
+    
     overflow:hidden;
 }
 
@@ -56,4 +56,18 @@ code {
   }
   
 }
+header {
+  border-bottom: 1px #ccc solid;
+  background: #eee;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  
+}
+
+header h1 {
+  float: left;
+  border: 1px solid black;
+}
+
 }

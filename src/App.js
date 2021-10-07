@@ -2,6 +2,11 @@ import {useEffect, useState} from "react";
 import PlayerContainer from "./PlayerContainer";
 import Header from "./Header";
 import NavBar from "./NavBar";
+import Guard from "./Guard";
+import Wing from "./Wing";
+import Big from "./Big";
+import Home from "./Home";
+import { Route, Switch} from "react-router-dom";
 
 function App() {
   const [players, setPlayers] = useState([]);
@@ -23,7 +28,22 @@ function App() {
     <div className="app">
       <Header />
       <NavBar addNewPlayer={addNewPlayer} setSearchPlayer={setSearchPlayer} />
-      <PlayerContainer players={filteredPlayers} filteredPlayers={filteredPlayers} />
+      
+      <Switch>
+        <Route path="/Guard">
+          <Guard />
+          </Route> 
+          <Route path="/Wing">
+          <Wing />
+          </Route> 
+          <Route path="/Big">
+          <Big />
+          </Route>
+          <Route path="/">
+            <Home  />
+            <PlayerContainer players={filteredPlayers} filteredPlayers={filteredPlayers} />
+            </Route>   
+      </Switch>
       
     </div>
   );

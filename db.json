@@ -81,7 +81,6 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg/250px-Giannis_Antetokounmpo_%2824845003687%29_%28cropped%29.jpg",
       "highlights": "https://www.youtube.com/watch?v=OSQ-lRYUkfs"
     },
-  
     {
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Trae_Young.jpg/220px-Trae_Young.jpg",
       "name": "Trae Young",
@@ -90,6 +89,24 @@
       "weight": "180",
       "highlights": "https://www.youtube.com/watch?v=sPQtI6zIl0I",
       "id": 12
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Damian_Lillard_against_the_Cleveland_Cavaliers_%28cropped%29.jpg/220px-Damian_Lillard_against_the_Cleveland_Cavaliers_%28cropped%29.jpg",
+      "name": "Damian Lillard ",
+      "position": "Guard",
+      "height": "6'2 ",
+      "weight": "195",
+      "highlights": "https://www.youtube.com/watch?v=k-OAvuqwRvA",
+      "id": 13
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Lonzo_Ball_%2849487850503%29.jpg/220px-Lonzo_Ball_%2849487850503%29.jpg",
+      "name": "Lonzo Ball",
+      "position": "Guard",
+      "height": "6'6",
+      "weight": "190",
+      "highlights": "https://www.youtube.com/watch?v=xXiAZganI2U",
+      "id": 14
     }
   ]
 }
