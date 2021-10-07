@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+
 }
 
 code {
@@ -12,62 +14,58 @@ code {
     monospace;
 }
 
-.cards {
-  list-style: none;
-}
-.cards {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
-}
+.wrap {
+  width: 1000px;
+  margin:auto;
+  margin-top: 100px;
 
-.card {
-  margin: 1rem;
-}
-
-.card img {
-   float: left;
-    width:  300px;
-    height: 300px;
-    
-    overflow:hidden;
-}
-
-.card button {
-  margin-top: 0.5rem;
 }
 .card {
-  width: calc(33% - 2rem);
-}
-@media (min-width: 768px) {
-  .cards {
-    display: flex;
-    flex-wrap: wrap;
-  }
-@media (min-width: 1024px) {
-  .card {
-    width: calc(25% - 2rem);
-  }
-}
-
-@media (min-width: 1200px) {
-  .card {
-    width: calc(20% - 2rem);
-  }
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  transition:0.4s;
+  width: 300px;
+  background: #fff;
+  text-align:center;
+  font-size: 16px;
+  font-family:sans-serif;
+  float:left;
+  margin:10px;
   
 }
+
+.card:hover{
+  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+}
+
+.container{
+  padding: 2px 16px;
+}
+
+img {
+  
+  width:  300px;
+  height: 300px;
+  background-size:cover;
+}
+
 header {
   border-bottom: 1px #ccc solid;
   background: #eee;
   padding: 1rem;
   display: flex;
+  justify-content: center;
   align-items: center;
+  background: url(https://image.cnbcfm.com/api/v1/image/105597197-1543415682114gettyimages-473091278.jpeg?v=1589399164&w=1600&h=900) 50%/ cover
   
 }
 
 header h1 {
   float: left;
-  border: 1px solid black;
+  font-size: 40px;
+  color: #00caa6;
+	font-style: italic;
+	font-family: 'Josefin Sans', sans-serif;
+  
 }
 
-}
+

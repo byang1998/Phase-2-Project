@@ -24,6 +24,8 @@ function App() {
 
   const filteredPlayers = players.filter((playerObj) => playerObj.name.includes(searchPlayer))
 
+ 
+
   return (
     <div className="app">
       <Header />
