@@ -3,10 +3,7 @@ import {useEffect, useState} from "react";
 import PlayerContainer from "./PlayerContainer";
 import Header from "./Header";
 import NavBar from "./NavBar";
-import Guard from "./Guard";
-import Wing from "./Wing";
-import Big from "./Big";
-import Home from "./Home";
+
 import { Route, Switch} from "react-router-dom";
 
 function App() {
@@ -52,7 +49,6 @@ function App() {
             <PlayerContainer players={filterBigs} />
           </Route>
           <Route path="/">
-            <Home  />
             <PlayerContainer players={filteredPlayers} filteredPlayers={filteredPlayers} />
             </Route>   
       </Switch>

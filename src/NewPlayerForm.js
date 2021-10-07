@@ -47,16 +47,16 @@ export default function NewPlayerForm({addNewPlayer}) {
     }
 
     return (
-        <div>
-        <h2>New Player</h2>
+        <div className= "formdiv">
+        <h2 className="formheading">New Player</h2>
         <form onSubmit={handleSubmit}>
-        <input value={image.image} onChange={(e) => setImage(e.target.value)}  type="text" name="image" placeholder="image URL" />
-        <input value={name.name} onChange={(e) => setName(e.target.value)}  type="text" name="name" placeholder="name" />
-        <input value={position.position} onChange={(e) => setPosition(e.target.value)}  type="text" name="position" placeholder="position" />
-        <input value={height.height} onChange={(e) => setHeight(e.target.value)}  type="text" name="height" placeholder="height" />
-        <input value= {weight.weight} onChange={(e) => setWeight(e.target.value)}  type="number" name="weight" placeholder="weight" />
-        <input value={highlights.highlights} onChange={(e) => setHighlights(e.target.value)}  type="text" name="highlights" placeholder="highlight link" />
-        <button type="submit">Add Player </button>
+        <input className="inputname" value={image.image} onChange={(e) => setImage(e.target.value)}  type="text" name="image" placeholder="image URL" />
+        <input className="inputname" value={name.name} onChange={(e) => setName(e.target.value)}  type="text" name="name" placeholder="name" />
+        <input className="inputname" value={position.position} onChange={(e) => setPosition(e.target.value)}  type="text" name="position" placeholder="position" />
+        <input className="inputname" value={height.height} onChange={(e) => setHeight(e.target.value)}  type="text" name="height" placeholder="height" />
+        <input className="inputname" value= {weight.weight} onChange={(e) => setWeight(e.target.value)}  type="number" name="weight" placeholder="weight" />
+        <input className="inputname" value={highlights.highlights} onChange={(e) => setHighlights(e.target.value)}  type="text" name="highlights" placeholder="highlight link" />
+        <button className="buttonstyle" type="submit">Add Player </button>
 
         </form>
             

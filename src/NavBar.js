@@ -9,7 +9,7 @@ export default function NavBar( {addNewPlayer, setSearchPlayer }) {
         <div class="topSection">
         <NewPlayerForm addNewPlayer={addNewPlayer}  />
         <SearchBar setSearchPlayer={setSearchPlayer} />
-        
+        <ul class="stateclasses">
         <li><NavLink to="Home">Home</NavLink></li>
 
         <li><NavLink to="Guard">Guard</NavLink></li>
@@ -17,6 +17,7 @@ export default function NavBar( {addNewPlayer, setSearchPlayer }) {
         <li><NavLink to="Wing">Wing</NavLink></li>
 
         <li><NavLink to="Big">Big</NavLink></li>
+        </ul>
         </div>
     )
 }

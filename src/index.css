@@ -105,3 +105,56 @@ p {
   color: white;
   text-shadow: 2px 2px 4px #000000;
 }
+
+.inputname{
+  padding: 1rem;
+  margin: 4px;
+}
+
+.buttonstyle {
+  padding: 1rem;
+  margin: 4px;
+  color: #FFFFFF;
+  border-color: #FFFFFF;
+  background:#f14ebd;
+}
+
+.Searchclass{
+position: absolute; 
+left: 10px;
+padding: 0.5rem;
+
+}
+
+.formheading {
+  padding: 2rem;
+  margin: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textboxclass {
+  width:200px;
+  height:40px;
+}
+
+.stateclasses {
+  display: flex;
+      align-content: center;
+      justify-content: center;
+      gap: 60px;
+      list-style-type: none;
+      text-decoration: none;
+      color:black;
+      font-size: 1.2rem;
+}
+
+.stateclasses li a{
+  text-decoration: none; 
+  color: black;
+  font-size: 1.2rem;
+  border:5px; 
+  border-style:solid; 
+  border-color: black;
+}
