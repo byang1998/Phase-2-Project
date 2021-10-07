@@ -161,6 +161,24 @@
       "weight": "240",
       "highlights": "https://www.youtube.com/watch?v=_cilK9DE9Rk",
       "id": 20
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Rudy_Gobert_2015_%28cropped%29.jpg/220px-Rudy_Gobert_2015_%28cropped%29.jpg",
+      "name": "Rudy Gobert",
+      "position": "Big",
+      "height": "7'1",
+      "weight": "258",
+      "highlights": "https://www.youtube.com/watch?v=yxjU60hsCHs",
+      "id": 21
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Goran_Dragic_2018_%28cropped%29.jpg/220px-Goran_Dragic_2018_%28cropped%29.jpg",
+      "name": "Goran Dragic",
+      "position": "Guard",
+      "height": "6'3",
+      "weight": "190",
+      "highlights": "https://www.youtube.com/watch?v=kJnFa76RiwM",
+      "id": 22
     }
   ]
 }
