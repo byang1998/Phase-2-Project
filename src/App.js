@@ -12,6 +12,8 @@ import { Route, Switch} from "react-router-dom";
 function App() {
   const [players, setPlayers] = useState([]);
   const [searchPlayer, setSearchPlayer] = useState("")
+  const [playerPositionFilter, setPlayerPositionFilter] = useState("")
+  
 
   useEffect (() => {
     fetch("http://localhost:3001/players")
@@ -23,7 +25,14 @@ function App() {
     setPlayers((prevPlayer) => [newPlayerObj,...prevPlayer])
   }
 
-  const filteredPlayers = players.filter((playerObj) => playerObj.name.includes(searchPlayer))
+
+  const filteredPlayers = players.filter((playerObj) => playerObj.name.toLowerCase().includes(searchPlayer.toLowerCase()))
+
+  const filterGuards = filteredPlayers.filter((playerObj) => playerObj.position.toLowerCase() === "guard")
+
+  const filterWings = filteredPlayers.filter((playerObj) => playerObj.position.toLowerCase() === "wing")
+
+  const filterBigs = filteredPlayers.filter((playerObj) => playerObj.position.toLowerCase() === "big")
 
  
 
@@ -34,13 +43,13 @@ function App() {
       
       <Switch>
         <Route path="/Guard">
-          <Guard />
+            <PlayerContainer players={filterGuards} />
           </Route> 
           <Route path="/Wing">
-          <Wing />
+            <PlayerContainer players={filterWings} />
           </Route> 
           <Route path="/Big">
-          <Big />
+            <PlayerContainer players={filterBigs} />
           </Route>
           <Route path="/">
             <Home  />

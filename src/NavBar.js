@@ -11,10 +11,12 @@ export default function NavBar( {addNewPlayer, setSearchPlayer }) {
         <SearchBar setSearchPlayer={setSearchPlayer} />
         
         <li><NavLink to="Home">Home</NavLink></li>
-        
+
         <li><NavLink to="Guard">Guard</NavLink></li>
 
         <li><NavLink to="Wing">Wing</NavLink></li>
+
+        <li><NavLink to="Big">Big</NavLink></li>
         </div>
     )
 }

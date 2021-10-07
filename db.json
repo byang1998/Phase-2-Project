@@ -107,6 +107,60 @@
       "weight": "190",
       "highlights": "https://www.youtube.com/watch?v=xXiAZganI2U",
       "id": 14
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Heat_Duncan_Robinson_%28cropped%29.jpg/220px-Heat_Duncan_Robinson_%28cropped%29.jpg",
+      "name": "Duncan Robinson ",
+      "position": "Guard",
+      "height": "6'7",
+      "weight": "215",
+      "highlights": "https://www.youtube.com/watch?v=qLlwI0Mg29o",
+      "id": 15
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Joel_Embiid_2019.jpg/220px-Joel_Embiid_2019.jpg",
+      "name": "Joel Embiid",
+      "position": "Big",
+      "height": "7'0",
+      "weight": "280",
+      "highlights": "https://www.youtube.com/watch?v=hxuiQrvKETs",
+      "id": 16
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Jayson_Tatum_%282018%29.jpg/220px-Jayson_Tatum_%282018%29.jpg",
+      "name": "Jayson Tatum",
+      "position": "Wing",
+      "height": "6'8",
+      "weight": "210",
+      "highlights": "https://www.youtube.com/watch?v=cinaqnorby8",
+      "id": 17
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Donovan_Mitchell_shooting_%28cropped%29.jpg/220px-Donovan_Mitchell_shooting_%28cropped%29.jpg",
+      "name": "Donovan Mitchell",
+      "position": "Guard",
+      "height": "6'1",
+      "weight": "215",
+      "highlights": "https://www.youtube.com/watch?v=6-MeNgMheQM",
+      "id": 18
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Jamal_Murray_free_throw_%28cropped%29.jpg/220px-Jamal_Murray_free_throw_%28cropped%29.jpg",
+      "name": "Jamal Murray",
+      "position": "Guard",
+      "height": "6'3",
+      "weight": "215",
+      "highlights": "https://www.youtube.com/watch?v=wPQ9zFn4iyM",
+      "id": 19
+    },
+    {
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Kelly_Olynyk_%28cropped%29.jpg/220px-Kelly_Olynyk_%28cropped%29.jpg",
+      "name": "Kelly Olynyk",
+      "position": "Big",
+      "height": "6'11",
+      "weight": "240",
+      "highlights": "https://www.youtube.com/watch?v=_cilK9DE9Rk",
+      "id": 20
     }
   ]
 }
