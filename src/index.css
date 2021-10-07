@@ -22,7 +22,7 @@ code {
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
-  transition:0.8s;
+  transition:0.18s;
   width: 300px;
   background: #fff;
   text-align:center;
@@ -34,7 +34,7 @@ code {
 }
 
 .card:hover{
-  box-shadow:0 8px 16px 0 rgba(0,0,0,0.6);
+  box-shadow:0 8px 26px 0 rgb(255, 238, 0);
 }
 
 .container{
