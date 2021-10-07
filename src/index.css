@@ -62,18 +62,19 @@ header {
 header h1 {
   float: left;
   font-size: 40px;
-  color: #00caa6;
+  color: white;
 	font-style: italic;
 	font-family: 'Josefin Sans', sans-serif;
   
 }
 
 .topSection {
-  border-bottom: 1px rgb(41, 3, 253) solid;
+  border-top: 2px rgb(41, 3, 253) solid;
+  border-bottom: 2px red solid;
   background: white;
   padding: 1rem;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  align-items: left;
   
 }
