@@ -48,7 +48,7 @@ export default function NewPlayerForm({addNewPlayer}) {
 
     return (
         <div className= "formdiv">
-        <h2 className="formheading">New Player</h2>
+        <h2 className="formheading">Submit New Player</h2>
         <form onSubmit={handleSubmit}>
         <input className="inputname" value={image.image} onChange={(e) => setImage(e.target.value)}  type="text" name="image" placeholder="image URL" />
         <input className="inputname" value={name.name} onChange={(e) => setName(e.target.value)}  type="text" name="name" placeholder="name" />
