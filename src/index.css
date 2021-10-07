@@ -68,4 +68,12 @@ header h1 {
   
 }
 
-
+.topSection {
+  border-bottom: 1px rgb(41, 3, 253) solid;
+  background: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}

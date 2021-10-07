@@ -1,3 +1,4 @@
+import React from 'react'
 import {useEffect, useState} from "react";
 import PlayerContainer from "./PlayerContainer";
 import Header from "./Header";
