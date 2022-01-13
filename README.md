@@ -1,3 +1,11 @@
+# NBA Player Card
+Welcome to NBA Player Card. This app will allow users to view the height, weight and highlights of the top NBA players. The app also lets users upload additional player cards to the app if they do not see a certain player being displayed. Users will also be able to navigate players by the position they play.
+
+# Demo
+[Click here for the demo!][create demo]
+
+[create demo]: https://www.youtube.com/watch?v=fDuY8tRcxOo
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
