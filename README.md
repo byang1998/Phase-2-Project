@@ -4,7 +4,7 @@ Welcome to NBA Player Card. This app will allow users to view the height, weight
 # Demo
 [Click here for the demo!][create demo]
 
-[create demo]: https://www.youtube.com/watch?v=fDuY8tRcxOo
+[create demo]: https://www.youtube.com/watch?v=kbjc_Ki9Wtk
 
 # Getting Started with Create React App
 
